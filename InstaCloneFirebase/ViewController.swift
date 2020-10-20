@@ -26,6 +26,7 @@ class ViewController: UIViewController {
                 } else {
                     self.performSegue(withIdentifier: "toFeedVC", sender: nil)
                 }
+                
             }
         } else {
             makeAlert(titleInput: "Error", messageInput: "Please fill email and password")
